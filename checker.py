@@ -1,7 +1,6 @@
 import requests
 import json
 
-class ProxyChecker():
 
 class ProxyChecker():    
     # Check if proxy is working
