@@ -48,8 +48,8 @@ class ProxyChecker():
             print("Proxy {} is dead or not responding.".format(proxy))
     
     
-    def checkList(self, file):
-        with open(file, 'r') as f:
+    def checkList(self):
+        with open('./proxies.txt', 'r') as f:
             for line in f:
                 self.verifyProxy(line)
 
